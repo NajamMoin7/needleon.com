@@ -5,7 +5,7 @@ import { Button } from "@/components/ui/Button";
 
 export const metadata: Metadata = {
   title: "Checkout",
-  description: "Complete your NeedleOn order — Cash on Delivery or Easypaisa.",
+  description: "Complete your NeedleOn order. Cash on Delivery or Easypaisa.",
 };
 
 export default function CheckoutPage() {
@@ -67,7 +67,7 @@ export default function CheckoutPage() {
               <PaymentOption
                 value="easypaisa"
                 title="Easypaisa"
-                body="Send payment to our Easypaisa account, then upload the screenshot — we'll verify within 24 hours."
+                body="Send payment to our Easypaisa account, then upload the screenshot. We'll verify within 24 hours."
               />
             </div>
 

@@ -29,7 +29,7 @@ export function Logo({
   const img = (
     <Image
       src="/logo.png"
-      alt="NeedleOn — Fit For Perfection"
+      alt="NeedleOn, Fit For Perfection"
       width={s.width}
       height={s.height}
       priority={priority}

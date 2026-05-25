@@ -9,7 +9,7 @@ import { IconScissors, IconShield, IconSparkles, IconTruck } from "@/components/
 export const metadata: Metadata = {
   title: "About",
   description:
-    "Learn about NeedleOn — a modern boutique pairing curated ready-to-wear with bespoke stitching.",
+    "Learn about NeedleOn, a modern boutique pairing curated ready-to-wear with bespoke stitching.",
 };
 
 export default function AboutPage() {
@@ -32,7 +32,7 @@ export default function AboutPage() {
     {
       icon: <IconTruck className="w-5 h-5" />,
       title: "Pakistan-wide delivery",
-      body: "From Karachi to Hunza — your piece reaches you safely, with COD and Easypaisa available.",
+      body: "From Karachi to Hunza, your piece reaches you safely, with COD and Easypaisa available.",
     },
   ];
 
@@ -49,7 +49,7 @@ export default function AboutPage() {
             </h1>
             <p className="text-ink-500 leading-relaxed max-w-md">
               NeedleOn began as a small atelier and grew into the boutique you
-              see today — pairing curated ready-to-wear with bespoke stitching
+              see today, pairing curated ready-to-wear with bespoke stitching
               for women across Pakistan.
             </p>
           </div>
@@ -89,7 +89,7 @@ export default function AboutPage() {
         <div className="grid md:grid-cols-2 gap-8 items-center">
           <SectionHeading
             title="Come see us in store."
-            description="Walk-ins welcome at our flagship atelier. Or browse the collection online — we'll deliver to your door."
+            description="Walk-ins welcome at our flagship atelier. Or browse the collection online. We'll deliver to your door."
             invert
           />
           <div className="md:justify-self-end flex flex-wrap gap-3">

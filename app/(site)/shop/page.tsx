@@ -14,7 +14,7 @@ import { cn } from "@/lib/cn";
 export const metadata: Metadata = {
   title: "Shop",
   description:
-    "Browse the NeedleOn collection — ready-to-wear, unstitched fabrics, formals and accessories.",
+    "Browse the NeedleOn collection: ready-to-wear, unstitched fabrics, formals and accessories.",
 };
 
 type SP = {
@@ -73,7 +73,7 @@ export default async function ShopPage({
           </h1>
           <p className="text-ink-500 mt-2 max-w-xl">
             Explore curated ready-to-wear, unstitched fabrics and finishing
-            touches — filter by category, size, colour or price.
+            touches. Filter by category, size, colour or price.
           </p>
         </Container>
       </section>

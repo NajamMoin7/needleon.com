@@ -155,7 +155,7 @@ export default function CartPage() {
                   </span>
                   <span className="inline-flex items-center gap-2 text-ink-700">
                     <span className="w-1.5 h-1.5 rounded-full bg-blush-400" />
-                    Easypaisa — manual verification
+                    Easypaisa: manual verification
                   </span>
                 </div>
               </div>
@@ -183,7 +183,7 @@ function EmptyCart() {
     <div className="text-center py-20 bg-surface rounded-3xl border border-border">
       <div className="font-display text-2xl text-ink-800">Your bag is empty</div>
       <p className="text-sm text-ink-500 mt-2">
-        Add a few pieces from the collection — they&apos;ll appear here.
+        Add a few pieces from the collection. They&apos;ll appear here.
       </p>
       <Button href="/shop" size="lg" className="mt-6">
         Start shopping

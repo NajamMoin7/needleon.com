@@ -57,7 +57,7 @@ export const stitchingRequests: StitchingRequest[] = [
     orderOption: "own",
     stitchingType: "Designer stitching",
     dressType: "Shalwar Kameez",
-    fabricDetails: "Lawn cotton — 2.5m, light pink with floral print",
+    fabricDetails: "Lawn cotton, 2.5m, light pink with floral print",
     measurements: {
       Bust: "36",
       Waist: "30",
@@ -87,7 +87,7 @@ export const stitchingRequests: StitchingRequest[] = [
     orderOption: "buy",
     stitchingType: "Bridal stitching",
     dressType: "Lehenga",
-    fabricDetails: "Wine raw silk lehenga — purchased from /shop/wine-bridal-lehenga",
+    fabricDetails: "Wine raw silk lehenga, purchased from /shop/wine-bridal-lehenga",
     measurements: {
       Bust: "34",
       Waist: "28",
@@ -115,7 +115,7 @@ export const stitchingRequests: StitchingRequest[] = [
     orderOption: "own",
     stitchingType: "Standard stitching",
     dressType: "Kurta",
-    fabricDetails: "Cambric — 2m, dusty rose",
+    fabricDetails: "Cambric, 2m, dusty rose",
     measurements: {
       Bust: "38",
       Waist: "32",
@@ -137,7 +137,7 @@ export const stitchingRequests: StitchingRequest[] = [
     orderOption: "buy",
     stitchingType: "Designer stitching",
     dressType: "Maxi / Gown",
-    fabricDetails: "Ivory raw silk — from /shop/ivory-pearl-formal-suit",
+    fabricDetails: "Ivory raw silk, from /shop/ivory-pearl-formal-suit",
     measurements: {
       Bust: "36",
       Waist: "30",
@@ -164,7 +164,7 @@ export const stitchingRequests: StitchingRequest[] = [
     orderOption: "own",
     stitchingType: "Standard stitching",
     dressType: "Shalwar Kameez",
-    fabricDetails: "Khaddar — 3m, charcoal",
+    fabricDetails: "Khaddar, 3m, charcoal",
     measurements: {
       Bust: "40",
       Waist: "34",

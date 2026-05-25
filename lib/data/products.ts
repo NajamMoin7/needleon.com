@@ -25,7 +25,7 @@ export const products: Product[] = [
     fabric: "Lawn cotton with thread embroidery",
     stock: 24,
     description:
-      "A lightweight lawn kurta with hand-finished thread embroidery on the neckline and cuffs. Tailored for an easy, drapey fit — equally at home for daywear or paired with statement earrings for evening.",
+      "A lightweight lawn kurta with hand-finished thread embroidery on the neckline and cuffs. Tailored for an easy, drapey fit, equally at home for daywear or paired with statement earrings for evening.",
     featured: true,
     newArrival: true,
     bestSeller: true,
@@ -102,7 +102,7 @@ export const products: Product[] = [
     fabric: "Cambric cotton",
     stock: 40,
     description:
-      "A clean, structured pret kurta in a deep emerald green. Box-cut silhouette with side slits and a mandarin collar — designed for movement.",
+      "A clean, structured pret kurta in a deep emerald green. Box-cut silhouette with side slits and a mandarin collar, designed for movement.",
     newArrival: true,
     bestSeller: true,
     rating: 4.6,
@@ -118,7 +118,7 @@ export const products: Product[] = [
     ],
     sizes: ["Free"],
     colors: [sand, ivory],
-    fabric: "Khaddar — shirt, trouser, dupatta",
+    fabric: "Khaddar: shirt, trouser, dupatta",
     stock: 35,
     description:
       "A complete unstitched khaddar set in soft sandstone. Includes 2.5m shirt fabric, 2.5m trouser fabric and a 2.5m printed dupatta. Pair with our stitching service to have it tailored to your measurements.",
@@ -140,7 +140,7 @@ export const products: Product[] = [
     fabric: "Raw silk lehenga with heavy zardozi",
     stock: 3,
     description:
-      "A bridal statement — full-flare raw silk lehenga with hand-done zardozi across the bodice, hem and dupatta border. Includes choli and 4m dupatta. Made-to-order in 4 weeks.",
+      "A bridal statement: full-flare raw silk lehenga with hand-done zardozi across the bodice, hem and dupatta border. Includes choli and 4m dupatta. Made-to-order in 4 weeks.",
     featured: true,
     rating: 5.0,
     reviews: 9,
@@ -214,7 +214,7 @@ export const products: Product[] = [
     fabric: "Digital-printed lawn",
     stock: 28,
     description:
-      "A bright digital-printed lawn 3-piece with embroidered front panel. A celebration of soft florals — perfect for spring and summer.",
+      "A bright digital-printed lawn 3-piece with embroidered front panel. A celebration of soft florals, perfect for spring and summer.",
     newArrival: true,
     featured: true,
     rating: 4.6,

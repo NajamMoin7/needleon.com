@@ -11,7 +11,7 @@ import {
 export const metadata: Metadata = {
   title: "Contact",
   description:
-    "Get in touch with NeedleOn — WhatsApp, email or visit our flagship boutique.",
+    "Get in touch with NeedleOn: WhatsApp, email or visit our flagship boutique.",
 };
 
 export default function ContactPage() {
@@ -25,7 +25,7 @@ export default function ContactPage() {
           </h1>
           <p className="text-ink-500 mt-2">
             Questions about an order, a stitching booking, or something else?
-            Send us a message — we usually reply within a few hours.
+            Send us a message. We usually reply within a few hours.
           </p>
         </Container>
       </section>
@@ -65,7 +65,7 @@ export default function ContactPage() {
               </div>
               <div>
                 <dt className="text-ink-500 text-xs uppercase tracking-wider">Boutique address</dt>
-                <dd className="text-ink-800">Visit us — address coming soon</dd>
+                <dd className="text-ink-800">Visit us: address coming soon</dd>
               </div>
             </dl>
             <div className="flex gap-2 pt-2">

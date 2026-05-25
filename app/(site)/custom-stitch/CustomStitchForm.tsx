@@ -31,7 +31,7 @@ export function CustomStitchForm() {
           ✓
         </div>
         <h3 className="font-display text-2xl text-ink-800 mt-4">
-          Thank you — request received
+          Thank you, request received
         </h3>
         <p className="text-ink-500 mt-2 leading-relaxed">
           Our team will reach out within 24 hours to confirm measurements,
@@ -140,7 +140,7 @@ export function CustomStitchForm() {
               <Field key={m} label={m}>
                 <Input
                   name={m.toLowerCase().replace(/\s+/g, "-")}
-                  placeholder="—"
+                  placeholder="-"
                   inputMode="decimal"
                 />
               </Field>
@@ -241,7 +241,7 @@ export function CustomStitchForm() {
           <ol className="text-sm text-ink-600 space-y-2 list-decimal list-inside">
             <li>We review your request within 24 hours.</li>
             <li>We confirm fabric receipt and finalise measurements.</li>
-            <li>Stitching begins — typically 2–4 weeks.</li>
+            <li>Stitching begins, typically 2–4 weeks.</li>
             <li>Quality check, then shipped to your address.</li>
           </ol>
         </div>

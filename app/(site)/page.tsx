@@ -56,7 +56,7 @@ function Hero() {
           <FadeUp delay={0.16}>
             <p className="text-base sm:text-lg text-ink-500 max-w-md leading-relaxed">
               A curated wardrobe of ready-to-wear, unstitched fabric and bespoke
-              stitching services — all hand-finished and delivered across Pakistan.
+              stitching services, all hand-finished and delivered across Pakistan.
             </p>
           </FadeUp>
           <FadeUp delay={0.24}>
@@ -212,7 +212,7 @@ function StitchingCTA() {
               <span className="text-blush-500">Tailored to fit perfectly.</span>
             </h2>
             <p className="text-ink-500 mt-4 leading-relaxed max-w-md">
-              Send us your fabric — or pick one from our shop — and we&apos;ll
+              Send us your fabric, or pick one from our shop, and we&apos;ll
               stitch a piece designed around your measurements, dress type and
               inspiration. Two simple flows, one beautifully finished outfit.
             </p>
@@ -285,7 +285,7 @@ function HowItWorks() {
     {
       icon: <IconScissors className="w-5 h-5" />,
       title: "Pick your fit",
-      body: "Choose size, colour and fabric — or share your measurements for made-to-measure stitching.",
+      body: "Choose size, colour and fabric, or share your measurements for made-to-measure stitching.",
     },
     {
       icon: <IconTruck className="w-5 h-5" />,
@@ -362,7 +362,7 @@ function FinalCTA() {
             <SectionHeading
               eyebrow="Ready when you are"
               title="Bring your wardrobe to life."
-              description="Shop the collection or start a custom stitching request — we'll take care of the rest."
+              description="Shop the collection or start a custom stitching request. We'll take care of the rest."
               invert
             />
           </div>

@@ -20,7 +20,7 @@ import { CustomStitchForm } from "./CustomStitchForm";
 export const metadata: Metadata = {
   title: "Custom Stitch",
   description:
-    "Custom stitching made simple — send your own fabric or buy from the shop, share measurements and references, and our atelier stitches it up.",
+    "Custom stitching made simple. Send your own fabric or buy from the shop, share measurements and references, and our atelier stitches it up.",
 };
 
 export default function CustomStitchPage() {
@@ -55,8 +55,8 @@ function Hero() {
           </FadeUp>
           <FadeUp delay={0.16}>
             <p className="text-base sm:text-lg text-ink-500 max-w-xl leading-relaxed">
-              Send your own fabric — or purchase from our ready-to-wear
-              collection — and request professional stitching tailored to your
+              Send your own fabric, or purchase from our ready-to-wear
+              collection, and request professional stitching tailored to your
               style, measurements and inspiration.
             </p>
           </FadeUp>
@@ -124,7 +124,7 @@ function HowItWorks() {
     {
       n: 2,
       title: "Share Your Measurements",
-      body: "Fill in size, fitting preference and stitching style — we'll guide you if anything's unclear.",
+      body: "Fill in size, fitting preference and stitching style. We'll guide you if anything's unclear.",
       icon: <RulerIcon className="w-5 h-5" />,
     },
     {
@@ -136,13 +136,13 @@ function HowItWorks() {
     {
       n: 4,
       title: "Confirm Payment Method",
-      body: "Pay on delivery, or send via Easypaisa and upload your screenshot — we'll verify within 24 hours.",
+      body: "Pay on delivery, or send via Easypaisa and upload your screenshot. We'll verify within 24 hours.",
       icon: <WalletIcon className="w-5 h-5" />,
     },
     {
       n: 5,
       title: "Boutique Starts Stitching",
-      body: "Our atelier confirms your request, sources what's needed and begins stitching — you'll see status updates as we go.",
+      body: "Our atelier confirms your request, sources what's needed and begins stitching. You'll see status updates as we go.",
       icon: <IconScissors className="w-5 h-5" />,
     },
     {
@@ -158,7 +158,7 @@ function HowItWorks() {
       <SectionHeading
         eyebrow="How it works"
         title="A clear, six-step process"
-        description="From the moment you start your request to the day your piece arrives — here's exactly what happens."
+        description="From the moment you start your request to the day your piece arrives, here's exactly what happens."
         align="center"
       />
       <Stagger className="mt-12 grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

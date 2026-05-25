@@ -49,12 +49,12 @@ export function AdminShell({ children }: { children: React.ReactNode }) {
   const [open, setOpen] = useState(false);
   return (
     <div className="min-h-screen bg-cream flex">
-      {/* Sidebar — desktop */}
+      {/* Sidebar: desktop */}
       <aside className="hidden lg:flex flex-col w-64 shrink-0 bg-ink-800 text-white border-r border-ink-900">
         <SidebarContent />
       </aside>
 
-      {/* Sidebar — mobile drawer */}
+      {/* Sidebar: mobile drawer */}
       <AnimatePresence>
         {open && (
           <div className="lg:hidden fixed inset-0 z-50" role="dialog" aria-modal="true">

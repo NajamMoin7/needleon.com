@@ -12,7 +12,7 @@ import {
 } from "@/components/ui/Icons";
 
 export default function AdminDashboardPage() {
-  const totalCustomers = 248; // mock — will come from User collection
+  const totalCustomers = 248; // mock, will come from User collection
   const totalOrders = 96;
   const pendingOrders = 14;
   const completedOrders = 71;

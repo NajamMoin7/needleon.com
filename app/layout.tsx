@@ -17,13 +17,13 @@ const playfair = Playfair_Display({
 export const metadata: Metadata = {
   metadataBase: new URL("https://needleon.com"),
   title: {
-    default: "NeedleOn — Boutique Ready-to-Wear & Custom Stitching",
+    default: "NeedleOn: Boutique Ready-to-Wear & Custom Stitching",
     template: "%s · NeedleOn",
   },
   description:
     "NeedleOn is a modern boutique offering curated ready-to-wear and bespoke custom stitching. Hand-finished pieces, made to fit you.",
   openGraph: {
-    title: "NeedleOn — Boutique Ready-to-Wear & Custom Stitching",
+    title: "NeedleOn: Boutique Ready-to-Wear & Custom Stitching",
     description:
       "Curated boutique ready-to-wear and bespoke stitching. Cash on Delivery & Easypaisa.",
     type: "website",
