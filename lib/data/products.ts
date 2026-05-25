@@ -18,7 +18,7 @@ export const products: Product[] = [
     discountPrice: 6800,
     images: [
       "https://images.unsplash.com/photo-1610030469983-98e550d6193c?auto=format&fit=crop&w=1200&q=80",
-      "https://images.unsplash.com/photo-1583391733981-8698e5d6e5f6?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1606107557195-0e29a4b5b4aa?auto=format&fit=crop&w=1200&q=80",
     ],
     sizes: ["S", "M", "L", "XL"],
     colors: [blush, ivory, dustyRose],
@@ -39,7 +39,7 @@ export const products: Product[] = [
     price: 24500,
     discountPrice: 19999,
     images: [
-      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1200&q=80",
     ],
     sizes: ["S", "M", "L"],
     colors: [ivory, sand],
@@ -58,7 +58,7 @@ export const products: Product[] = [
     category: "dupattas",
     price: 3500,
     images: [
-      "https://images.unsplash.com/photo-1591800573108-77ddb5e57b29?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583846783214-7229a91b20ed?auto=format&fit=crop&w=1200&q=80",
     ],
     sizes: ["Free"],
     colors: [blush, ivory, dustyRose],
@@ -95,7 +95,7 @@ export const products: Product[] = [
     price: 5800,
     discountPrice: 4900,
     images: [
-      "https://images.unsplash.com/photo-1602522953938-218c0e9cef9f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?auto=format&fit=crop&w=1200&q=80",
     ],
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: [emerald, charcoal, ivory],
@@ -133,7 +133,7 @@ export const products: Product[] = [
     price: 86000,
     discountPrice: 72500,
     images: [
-      "https://images.unsplash.com/photo-1564506876775-4d2db14d76e4?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1612336307429-8a898d10e223?auto=format&fit=crop&w=1200&q=80",
     ],
     sizes: ["S", "M", "L"],
     colors: [wine, dustyRose],

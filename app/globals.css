@@ -87,9 +87,6 @@
   transition: transform 150ms ease, background-color 200ms ease, color 200ms ease, box-shadow 200ms ease;
   white-space: nowrap;
 }
-@utility btn-base:hover {
-  transform: translateY(-1px);
-}
 
 @utility hairline {
   border: 1px solid var(--color-border);

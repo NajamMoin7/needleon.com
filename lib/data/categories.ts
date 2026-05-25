@@ -6,7 +6,7 @@ export const categories: Category[] = [
     name: "Unstitched",
     tagline: "Premium fabrics, ready for your tailor",
     image:
-      "https://images.unsplash.com/photo-1602522953938-218c0e9cef9f?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1483985988355-763728e1935b?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "ready-to-wear",
@@ -20,7 +20,7 @@ export const categories: Category[] = [
     name: "Formals & Bridal",
     tagline: "Statement pieces for weddings and events",
     image:
-      "https://images.unsplash.com/photo-1583391733956-6c78276477e2?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581044777550-4cfa60707c03?auto=format&fit=crop&w=1200&q=80",
   },
   {
     slug: "casual",
