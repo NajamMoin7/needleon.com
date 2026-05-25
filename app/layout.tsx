@@ -1,9 +1,6 @@
 import type { Metadata } from "next";
 import { Inter, Playfair_Display } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/site/Header";
-import { Footer } from "@/components/site/Footer";
-import { CartProvider } from "@/components/cart/CartProvider";
 
 const inter = Inter({
   variable: "--font-inter",
@@ -31,6 +28,7 @@ export const metadata: Metadata = {
       "Curated boutique ready-to-wear and bespoke stitching. Cash on Delivery & Easypaisa.",
     type: "website",
   },
+  icons: { icon: "/logo.png" },
 };
 
 export default function RootLayout({
@@ -44,11 +42,7 @@ export default function RootLayout({
       className={`${inter.variable} ${playfair.variable} h-full antialiased`}
     >
       <body className="min-h-full flex flex-col bg-background text-ink-700">
-        <CartProvider>
-          <Header />
-          <main className="flex-1">{children}</main>
-          <Footer />
-        </CartProvider>
+        {children}
       </body>
     </html>
   );

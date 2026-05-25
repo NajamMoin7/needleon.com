@@ -27,7 +27,7 @@ export default function ServicesPage() {
       tag: "Boutique",
       title: "Custom Stitching",
       body: "Bespoke, made-to-measure stitching by our atelier. Bring your own fabric or pair it with a piece from our shop — hand-finished in 2–4 weeks.",
-      cta: { href: "/boutique", label: "Book stitching service" },
+      cta: { href: "/custom-stitch", label: "Book stitching service" },
       image:
         "https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?auto=format&fit=crop&w=1400&q=80",
       icon: <IconScissors className="w-5 h-5" />,

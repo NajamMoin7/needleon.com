@@ -1,23 +1,24 @@
 import Link from "next/link";
+import { Logo } from "@/components/ui/Logo";
 import { IconFacebook, IconInstagram, IconWhatsapp } from "@/components/ui/Icons";
 
 const cols = [
   {
     title: "Shop",
     links: [
-      { href: "/shop", label: "All products" },
-      { href: "/shop?category=ready-to-wear", label: "Ready-to-wear" },
+      { href: "/shop", label: "Ready to Wear" },
+      { href: "/shop?category=ready-to-wear", label: "Pret" },
       { href: "/shop?category=unstitched", label: "Unstitched" },
       { href: "/shop?category=formals", label: "Formals & bridal" },
       { href: "/shop?category=dupattas", label: "Dupattas & shawls" },
     ],
   },
   {
-    title: "Boutique",
+    title: "Custom Stitch",
     links: [
-      { href: "/boutique", label: "Custom stitching" },
-      { href: "/services", label: "Services" },
-      { href: "/boutique#how", label: "How it works" },
+      { href: "/custom-stitch", label: "How it works" },
+      { href: "/custom-stitch#form", label: "Start a request" },
+      { href: "/services", label: "All services" },
     ],
   },
   {
@@ -37,9 +38,9 @@ export function Footer() {
       <div className="container-page py-16">
         <div className="grid gap-10 md:grid-cols-4">
           <div className="space-y-4 md:col-span-1">
-            <Link href="/" className="font-display text-2xl">
-              Needle<span className="text-blush-400">On</span>
-            </Link>
+            <div className="bg-white/95 rounded-2xl px-4 py-3 inline-block">
+              <Logo size="sm" />
+            </div>
             <p className="text-sm text-white/70 leading-relaxed">
               A modern boutique pairing curated ready-to-wear with bespoke
               stitching. Hand-finished pieces, made to fit you.
